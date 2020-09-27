@@ -1,0 +1,231 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, black, gray);
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+.contenedor{
+    width: 98%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+    height: auto;
+
+}
+
+.encabezado{
+    width: 100%;
+    background: linear-gradient(to right, black, gray);
+   
+}
+
+
+.nav-contenedor{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 10px;
+}
+
+.ef-nombre{
+    font-family: 'PT Serif', serif;
+    font-size: 70px;
+    color:white;
+    text-shadow: 5px 5px 2px gray;
+    -webkit-text-stroke: 2px maroon;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 15px;
+    font-weight: bold;
+    
+}
+
+.datos{   
+    margin: 0 70px 0 70px;
+    font-size: 12px;
+    color: white;
+    font-style: italic;
+    padding: 0;
+}
+    
+.titulo{
+    font-family: 'PT Serif', serif;
+    margin: 10px 0 0 0;
+    border-top: 2px solid white;
+    font-size: 35px;
+    text-align: center;
+    font-style: oblique;
+    padding: 2%;
+    color: white;
+    text-shadow:5px 5px 2px gray ;
+    -webkit-text-stroke: 1px maroon;
+    
+}
+
+.cont-reseña{
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    
+}
+
+.discografia{
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+}
+
+.card{
+    border:3px solid black;
+    width: 33%;
+    display: inline-block;    
+    align-items: center;   
+     
+}
+
+.titulo-card{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;    
+}
+
+.boton-card{
+    color:white;
+    
+}
+.fotos{
+    
+    display: inline-block;
+    
+}
+
+.img-galeria{
+    
+    width: 48%;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+
+.galeria a:hover img{   
+    transform:  scale(1.2);
+}
+
+i{
+    color: white;
+    font-size: 40px;
+}
+
+.redes{
+        
+    display: inline-block;
+    color:white;
+    align-items: center;
+}
+
+
+/*h1{
+    margin: 0;
+    font-family: 'PT Serif', serif;
+    font-size: 100px;
+    color: white;
+    text-shadow: 5px 5px 2px gray;
+}
+a{
+    text-decoration: none;
+}
+h4{
+    font-family: 'Gayathri', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+h6{
+    font-family: 'Gayathri', sans-serif;
+    font-size: 20px;
+    color: white; 
+    font-style: italic;
+}
+h3{
+    margin: 10px 0 0 0;
+    border-top: 2px solid white;
+    font-family: 'Gayathri', sans-serif ;
+    font-size: 35px;
+    text-align: center;
+    padding: 2%;
+}
+p{
+    font-family: 'Gayathri', sans-serif ;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.g1 {
+    width: 49%;
+    float: left;
+    border: 5px solid gray;  
+    
+}
+.g2{
+    width: 49%;
+    float: right;
+    border: 5px solid gray;
+    
+}
+.g3{
+    width: 99,9%;
+    border: 5px solid gray;
+}
+.g4{
+    width: 49%;
+    float: left;
+    border: 5px solid gray;  
+}
+.g5{
+    width: 49%;
+    float: right;
+    border: 5px solid gray;
+     
+}
+
+ul{
+    list-style:none;
+   
+}
+
+.album1{
+    position: absolute;
+    left: 5%;
+    
+}
+.album2{
+    position: absolute;
+    left: 38%;
+}
+.album3{
+    position: absolute;
+    left: 70%;
+}
+iframe{
+    width: 350px;
+    height: 460px;
+}
